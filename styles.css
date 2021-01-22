@@ -1,5 +1,5 @@
 * {
-
+box-sizing: border-box;
     
     
     
@@ -8,7 +8,7 @@
 
 body{
     font-family: sans-serif;
-    background-color: blue;
+    background-color: lightgray;
     box-sizing: border-box;
     
   }
@@ -33,15 +33,19 @@ header{
     text-decoration: none;
   }
   
-  .nav-link {
-    color: purple;
-    
-  }
-.icons{
-  
-    
-}
+.social{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+} 
 
-.navigation{
-       
+.head{
+  display: grid;
+  justify-items: center;
+}
+.nav{
+  display: grid;
+  grid-template-columns: repeat(4,2fr);
+  gap:4fr;
+  
 }
