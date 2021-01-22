@@ -2,10 +2,6 @@
 box-sizing: border-box;
 margin:0px;
 
-    
-    
-    
-
 }
 
 body{
@@ -18,10 +14,11 @@ header{
     background-color: white;
     padding: 20px;
     margin: 0px;
-    
-    
+       
   }
-  
+  footer{
+    margin: 20px;
+  }
   h1 {
     color: black;
    
@@ -29,6 +26,7 @@ header{
  
   h2{
     text-align: center;
+    margin: 20px;
   }
 
   li {
@@ -40,10 +38,11 @@ header{
   }
   
 .social{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(2,1fr);
-  align-items: center;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+padding: 20px;
+  
+
 } 
 
 .head{
@@ -76,4 +75,13 @@ header{
 
 legend{
   text-align: center;
+}
+
+.findme{
+  background-color: white;
+ 
+}
+
+.resume{
+  margin: 30px;
 }
