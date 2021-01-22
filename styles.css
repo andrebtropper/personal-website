@@ -1,0 +1,47 @@
+* {
+    
+    
+    
+
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+    box-sizing: border-box;
+    
+  }
+header{
+    background-color:lightgray;
+    
+  
+    
+  }
+  
+  h1 {
+    color: black;
+   
+  }
+  
+
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    color: purple;
+    
+  }
+.icons{
+  
+
+    
+}
+
+.navigation{
+       
+}
