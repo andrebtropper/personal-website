@@ -1,7 +1,6 @@
 * {
-    
-    
-    
+box-sizing: border-box;
+margin:0px;
 
 }
 
@@ -9,20 +8,26 @@ body{
     font-family: sans-serif;
     background-color: lightgray;
     box-sizing: border-box;
-    
+    display: grid;
   }
 header{
-    background-color:lightgray;
-    
-  
-    
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+       
   }
-  
+  footer{
+    margin: 20px;
+  }
   h1 {
     color: black;
    
   }
-  
+ 
+  h2{
+    text-align: center;
+    margin: 20px;
+  }
 
   li {
     list-style: none;
@@ -32,16 +37,52 @@ header{
     text-decoration: none;
   }
   
-  .nav-link {
-    color: purple;
-    
-  }
-.icons{
-  
+.social{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+padding: 20px;
 
-    
+
+} 
+
+.head{
+  display: grid;
+  justify-items: center;
+}
+.nav{
+  display: grid;
+  grid-template-columns: repeat(4,2fr);
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 20px;
+  
+}
+.picture{
+  text-align: center;
+  margin: 10px;
+  border-width: medium;
+  border-color: white;
+  
+}
+.survey{
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: white;
+  margin-top: 20px;
+  
 }
 
-.navigation{
-       
+
+legend{
+  text-align: center;
+}
+
+.findme{
+  background-color: white;
+ 
+}
+
+.resume{
+  margin: 30px;
+  
 }
