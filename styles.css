@@ -41,7 +41,7 @@ header{
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 padding: 20px;
-  
+
 
 } 
 
@@ -84,4 +84,5 @@ legend{
 
 .resume{
   margin: 30px;
+  
 }
